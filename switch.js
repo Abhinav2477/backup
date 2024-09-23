@@ -6,5 +6,5 @@
         // Compare current time with doomsday time
         if (currentTime >= doomsday) {
             // If the current time is past the doomsday, apply the CSS class
-            body.style.pointerEvents = "none";
+            document.body.style.pointerEvents = "none";
         }
